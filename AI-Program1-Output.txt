@@ -1,0 +1,65 @@
+Output for maze file: maze.txt
+	1	2	3	4	5	6	7	8	9	10
+1	W	W	W	W	W	W	X	W	W	W	
+2	W	P	W	P	P	W	P	W	P	W	
+3	W	P	P	P	P	W	P	W	P	W	
+4	W	W	P	W	W	W	P	W	P	W	
+5	W	P	P	W	P	W	P	P	P	W	
+6	W	P	W	W	P	W	W	P	P	W	
+7	E	P	P	P	P	P	W	P	W	W	
+8	W	P	W	W	P	W	W	P	W	W	
+9	W	P	P	P	P	P	P	P	P	W	
+10	W	W	W	W	W	W	W	W	W	W	
+The entrance is located at point (7,1).
+
+The exit is located at point (1,7).
+
+		Breadth First Search
+		____________________
+
+Breadth First Search Elapsed time: 0.00781s
+
+	1	2	3	4	5	6	7	8	9	10
+1	W	W	W	W	W	W	X	W	W	W	
+2	W	P	W	*	P	W	*	W	P	W	
+3	W	*	*	*	P	W	*	W	*	W	
+4	W	W	*	W	W	W	*	W	*	W	
+5	W	*	*	W	P	W	*	*	*	W	
+6	W	*	W	W	*	W	W	*	P	W	
+7	*	*	*	*	*	P	W	*	W	W	
+8	W	*	W	W	*	W	W	*	W	W	
+9	W	*	*	P	*	*	*	*	P	W	
+10	W	W	W	W	W	W	W	W	W	W	
+		Depth First Search
+		__________________
+
+Depth First Search Elapsed time: 0.000149s
+
+This is the path taken.
+	1	2	3	4	5	6	7	8	9	10
+1	 	 	 	 	 	 	*	 	 	 	
+2	 	 	 	 	 	 	*	 	 	 	
+3	 	 	 	 	 	 	*	 	 	 	
+4	 	 	 	 	 	 	*	 	 	 	
+5	 	 	 	 	 	 	*	*	 	 	
+6	 	 	 	 	 	 	 	*	 	 	
+7	>	*	 	 	 	 	 	*	 	 	
+8	 	*	 	 	 	 	 	*	 	 	
+9	 	*	*	*	*	*	*	*	 	 	
+10	 	 	 	 	 	 	 	 	 	 	
+
+
+This is the path inside the maze.
+	1	2	3	4	5	6	7	8	9	10
+1	W	W	W	W	W	W	X	W	W	W	
+2	W	P	W	P	P	W	*	W	P	W	
+3	W	P	P	P	P	W	*	W	P	W	
+4	W	W	P	W	W	W	*	W	P	W	
+5	W	P	P	W	P	W	*	*	P	W	
+6	W	P	W	W	P	W	W	*	P	W	
+7	E	*	P	P	P	P	W	*	W	W	
+8	W	*	W	W	P	W	W	*	W	W	
+9	W	*	*	*	*	*	*	*	P	W	
+10	W	W	W	W	W	W	W	W	W	W	
+
+
